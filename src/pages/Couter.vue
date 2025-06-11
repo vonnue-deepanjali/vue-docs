@@ -8,8 +8,8 @@
 import { reactive, computed } from 'vue'
 
 const state = reactive({
-  count: 0
+  count: 0,
 })
 
-const count = computed(() => state.count)  
+const count = computed(() => state.count)
 </script>
