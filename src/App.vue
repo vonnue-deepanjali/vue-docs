@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
     <ListRendering />
 </template>
   
@@ -6,3 +7,5 @@
     import ListRendering from './Pages/ListRendering.vue';
 </script>
   
+=======
+>>>>>>> main
