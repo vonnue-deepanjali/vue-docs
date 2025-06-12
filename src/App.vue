@@ -1,7 +1,7 @@
 <template>
-  <Sum />
+<Conditional />
 </template>
 
 <script setup>
-import Sum from './Pages/Sum.vue'
+import Conditional from './pages/Conditional.vue';
 </script>
