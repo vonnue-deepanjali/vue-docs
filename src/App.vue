@@ -1,7 +1,7 @@
 <template>
-  <Sum />
+<FormValidation />
 </template>
 
 <script setup>
-import Sum from './Pages/Sum.vue'
+import FormValidation from './pages/FormValidation.vue';
 </script>
