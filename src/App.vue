@@ -1,7 +1,7 @@
 <template>
-<Focus />
+<Timer />
 </template>
 
 <script setup>
-import Focus from './pages/Focus.vue';
+import Timer from './pages/Timer.vue';
 </script>
