@@ -1,7 +1,7 @@
 <template>
-  <Couter />
+  <Sum />
 </template>
 
 <script setup>
-import Couter from './pages/Couter.vue'
+import Sum from './Pages/Sum.vue'
 </script>
