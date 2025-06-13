@@ -1,29 +1,24 @@
 <template>
-<div>
+  <div>
     <h2>Timer: {{ seconds }} seconds</h2>
-</div>
+  </div>
 </template>
 
 <script setup>
-import { ref, onMounted, onUpdated, onUnmounted } from 'vue';
+import { ref, onMounted, onUpdated, onUnmounted } from 'vue'
 
-const seconds = ref(0);
+const seconds = ref(0)
 let interval = null
 
 onMounted(() => {
-    console.log('Componenet mounted');
-    interval = setInterval(() => {
-        seconds.vallue++;
-    }, 1000);
+  interval = setInterval(() => {
+    seconds.vallue++
+  }, 1000)
 })
 
-onUpdated(() => {
-    console.log(`Component is updated: seconds = ${seconds.value}`);
-})
+onUpdated(() => {})
 
 onUnmounted(() => {
-    console.log('Component unmounted, timer cleared');
-    clearInterval(interval)
+  clearInterval(interval)
 })
-
 </script>
