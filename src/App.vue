@@ -1,7 +1,7 @@
 <template>
-<Focus />
+<InputDetails />
 </template>
 
 <script setup>
-import Focus from './pages/Focus.vue';
+import InputDetails from './pages/InputDetails.vue';
 </script>
