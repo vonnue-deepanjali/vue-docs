@@ -12,7 +12,7 @@ let interval = null
 
 onMounted(() => {
   interval = setInterval(() => {
-    seconds.vallue++
+    seconds.value++
   }, 1000)
 })
 
