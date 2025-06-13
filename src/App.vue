@@ -1,7 +1,8 @@
 <template>
-<Focus />
+<ListRendering />
 </template>
-
+  
 <script setup>
-import Focus from './pages/Focus.vue';
+import ListRendering from './Pages/ListRendering.vue';
 </script>
+  
