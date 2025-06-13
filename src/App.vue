@@ -1,7 +1,7 @@
 <template>
-<Focus />
+  <Form />
 </template>
 
 <script setup>
-import Focus from './pages/Focus.vue';
+import Form from './Pages/Form.vue'
 </script>
