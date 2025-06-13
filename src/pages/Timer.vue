@@ -5,18 +5,16 @@
 </template>
 
 <script setup>
-import { ref, onMounted, onUpdated, onUnmounted } from 'vue'
+import { ref, onMounted, onUnmounted } from 'vue'
 
 const seconds = ref(0)
-let interval = null
+const interval = ref(null)
 
 onMounted(() => {
   interval = setInterval(() => {
     seconds.value++
   }, 1000)
 })
-
-onUpdated(() => {})
 
 onUnmounted(() => {
   clearInterval(interval)
