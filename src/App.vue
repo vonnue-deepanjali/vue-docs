@@ -1,7 +1,7 @@
 <template>
-<Timer />
+<InputDetails />
 </template>
 
 <script setup>
-import Timer from './pages/Timer.vue';
+import InputDetails from './pages/InputDetails.vue';
 </script>
