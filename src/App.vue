@@ -1,7 +1,7 @@
 <template>
-<ConditionalsLoop />
+<Focus />
 </template>
 
 <script setup>
-import ConditionalsLoop from './Pages/ConditionalsLoop.vue'
+import Focus from './pages/Focus.vue';
 </script>
