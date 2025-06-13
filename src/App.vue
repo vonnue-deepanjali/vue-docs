@@ -1,7 +1,7 @@
 <template>
-<Focus />
+<FormValidation />
 </template>
 
 <script setup>
-import Focus from './pages/Focus.vue';
+import FormValidation from './pages/FormValidation.vue';
 </script>
