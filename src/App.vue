@@ -1,7 +1,7 @@
 <template>
-<Conditional />
+<ConditionalsLoop />
 </template>
 
 <script setup>
-import Conditional from './pages/Conditional.vue';
+import ConditionalsLoop from './Pages/ConditionalsLoop.vue'
 </script>
